@@ -1,0 +1,38 @@
+{
+  "name": "paw-rsa",
+  "version": "1.0.0",
+  "description": "A Paw Extension that allows you to encrypt/decrypt using RSA Public/Private Key.",
+  "license": "MIT",
+  "author": "Lester Chan <lesterchan@gmail.com> (https://lesterchan.net)",
+  "homepage": "https://github.com/lesterchan/paw-popsignature",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lesterchan/paw-popsignature.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "lint": "eslint src/*.js"
+  },
+  "eslintConfig": {
+    "extends": "techinasia-base",
+    "rules": {
+      "max-len": 0
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-decorators": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "eslint": "~5.16.0",
+    "eslint-config-techinasia-base": "~0.8.0",
+    "eslint-plugin-import": "~2.16.0",
+    "path": "^0.12.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "jsencrypt": "^3.0.0-rc.1"
+  }
+}

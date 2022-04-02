@@ -1,3 +1,6 @@
+global.window = {};
+global.document = {};
+global.navigator = { userAgent: '' };
 const { JSEncrypt } = require("jsencrypt");
 
 @registerDynamicValueClass // eslint-disable-line
